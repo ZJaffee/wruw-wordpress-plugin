@@ -1,0 +1,556 @@
+body {
+	overflow-y: scroll;
+}
+
+.wruw-manager-holder {
+	margin-top: 50px;
+	width: 95%;
+	position: relative;
+}
+
+.wruw-manager-holder * {
+	box-sizing: border-box;
+}
+
+.wruw-manager-holder .clear {
+	clear: both;
+}
+
+.wruw-manager-holder input {
+	box-sizing: border-box;
+}
+
+.wruw-manager-holder a {
+	text-decoration: none;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.wruw-manager-holder p, .wruw-manager-holder li, .wruw-manager-holder div, .wruw-manager-holder ul, .wruw-manager-holder ol {
+	font-size: 15px;
+	margin: 10px 0;
+}
+
+.wruw-manager-holder .logo {
+	float: right;
+	width: 200px;
+	height: auto;
+}
+
+.wruw-manager-holder .clear {
+	clear: both;
+}
+
+.wruw-manager-holder h1 {
+  margin-bottom: 40px;
+  padding-top: 20px;
+}
+
+.wruw-manager-holder h2 {
+  margin-left: 50px;
+  padding-top: 20px;
+}
+
+.wruw-manager-holder .wruw-home-buttons {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 1px solid #faaa2e;
+  border-radius: 2px;
+  display: inline-block;
+  height: 150px;
+  margin: 0 2% 40px;
+  min-width: 300px;
+  text-align: center;
+  width: 45%;
+  max-width: 500px;
+  text-decoration: none;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.wruw-manager-holder .wruw-home-buttons:hover {
+	background-color: #FFF;
+}
+
+.wruw-manager-holder .wruw-home-buttons a {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.wruw-manager-holder .data-title {
+	float: left;
+	width: 20%;
+	max-width: 200px;
+	margin: 10px 2% 10px 0;
+	clear: both;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.wruw-manager-holder .small-note {
+	font-size: 12px;
+	font-weight: normal;
+}
+
+.wruw-manager-holder .data-field {
+	float: left;
+	width: 75%;
+	min-width: 300px;
+	margin: 10px 0;
+}
+
+.wruw-manager-holder .radio-project-holder {
+	margin-top: 60px;
+	border-bottom: 1px solid #faaa2e;
+	padding-bottom: 20px;
+}
+
+.wruw-manager-holder .radio-project-holder.next-show, .wruw-manager-holder .click-to-review {
+	margin-top: 40px;
+}
+
+.wruw-manager-holder h3.program-start-time {
+	border-bottom: 1px solid #faaa2e;
+	padding-bottom: 20px;
+}
+
+.wruw-manager-holder .feat-img {
+	max-width: 200px;
+}
+
+.wruw-manager-holder .radio-project-holder #update-project-submit {
+	margin: 20px 0;
+	font-weight: normal;
+}
+
+#wp-program-description-wrap p, #wp-program-description-wrap li, #wp-program-description-wrap div, #wp-program-description-wrap ul, #wp-program-description-wrap ol {
+  margin: 0;
+}
+
+#updateprogramform input, #updateprogramform select, #update-show-form input, #update-show-form select {
+	min-width: 300px;
+}
+
+#qt_show-description_toolbar input, #qt_program-description_toolbar input {
+	min-width: 1px;
+}
+
+#updateprogramform #upload_image_button {
+	width: auto;
+	min-width: 120px;
+}
+
+#updateprogramform #upload_image_prev {
+	display: none;
+	max-width: 200px;
+	height: auto;
+}
+
+#updateprogramform select {
+	padding: 10px;
+}
+
+#wp-show-description-wrap p, #wp-show-description-wrap li, #wp-show-description-wrap div, #wp-show-description-wrap ul, #wp-show-description-wrap ol {
+  margin: 0;
+}
+
+.wruw-manager-holder input[type='text'], .wruw-manager-holder select, .wruw-manager-holder input[type='text']:focus, .wruw-manager-holder select:focus {
+	border: none;
+}
+
+.wruw-manager-holder input[type='submit'] {
+	padding: 10px;
+	background-color: #FAAA2E;
+	color: #FFF;
+}
+
+#edit-song-holder input[type='submit'] { 
+	padding: 10px;
+	background-color: #FFF;
+	color: #000;
+}
+
+.wruw-manager-holder #new-show-submit {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.wruw-manager-holder #error-message {
+	display: inline-block;
+	margin-left: 20px;
+	vertical-align: middle;
+	visibility: hidden;
+	color: red;
+}
+
+.wruw-manager-holder #success-message {
+	display: inline-block;
+	margin-left: 20px;
+	vertical-align: middle;
+	visibility: hidden;
+	color: green;
+}
+
+.wruw-manager-holder .notice {
+	border: 1px red solid;
+	padding: 20px;
+	margin-bottom: 40px;
+}
+
+.wruw-manager-holder #new-song-form, .wruw-manager-holder .current-show-holder {
+	margin-left: 50px;
+}
+
+.wruw-manager-holder #new-song-form .data-field {
+	width: 78%;
+}
+
+#edit-song-holder .data-field {
+	display: block;
+	width: 100%;
+	margin: 0 0 20px;
+}
+
+.wruw-manager-holder #new-song-form .song-field, #edit-song-holder .song-field {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 10px;
+}
+
+.wruw-manager-holder #new-song-form .song-field label, #edit-song-holder .song-field label {
+  margin-left: 2px;
+  padding-bottom: 20px;
+  cursor: default;
+}
+
+.wruw-manager-holder #is-a-request, .wruw-manager-holder #is-new, #edit-song-holder #edit-is-a-request, #edit-song-holder #edit-is-new {
+	margin-left: 20px;
+}
+
+.wruw-manager-holder #new-song-details, #edit-song-holder #edit-new-song-details {
+	display: none;
+}
+
+.wruw-manager-holder .next-show {
+	margin: 40px 0 0 0;
+}
+
+.wruw-manager-holder .not-yours-current {
+	padding-bottom: 20px;
+	border-bottom: 1px solid #faaa2e;
+}
+
+.wruw-manager-holder .mar-50 {
+	margin-left: 50px;
+	margin-top: 60px;
+}
+
+.wruw-manager-holder .show-playlist-holder {
+  	border: 1px solid #FAAA2E;
+  	margin-top: 60px;
+  	min-height: 200px;
+  	max-height: 600px;
+  	overflow: auto;
+  	padding: 10px;
+  	width: 100%;
+  	display: block
+}
+
+.wruw-manager-holder .show-playlist-holder.request {
+	max-height: 100%;
+	overflow: auto;
+	margin-top: 60px;
+	width: 100%;
+	display: block;
+	border: none;
+}
+
+.wruw-manager-holder .show-playlist-holder.request .song-field {
+	overflow: auto;
+}
+
+.wruw-manager-holder .show-playlist {
+	display: table;
+}
+
+.wruw-manager-holder .show-playlist li {
+  	display: table-row;
+  	margin: 0 0 20px;
+  	max-width: 500px;
+  	background-color: transparent;
+}
+
+.wruw-manager-holder .show-playlist li.song-request {
+	color: red;
+}
+
+.wruw-manager-holder .show-playlist li.song-new {
+	color: green;
+}
+
+.wruw-manager-holder .show-playlist li:first-child {
+	padding-bottom: 20px;
+}
+
+.wruw-manager-holder .show-playlist li .song-field {
+	padding: 0px 20px 20px 0;
+	margin: 0px 20px 20px 0;
+	display: table-cell;
+}
+
+.wruw-manager-holder .show-playlist li .song-field.centered {
+	text-align: center;
+}
+
+.wruw-manager-holder .show-playlist li:first-child .song-field {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#new-schedule-form {
+	margin-left: 50px;
+}
+
+.wruw-manager-holder #new-schedule-form input, .wruw-manager-holder #new-schedule-form select {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+.wruw-manager-holder #schedule-pop {
+	display: none;
+}
+
+#schedule-time-form {
+	padding: 20px;
+}
+
+#schedule-time-form select.program {
+	display: block;
+	width: 100%;
+	margin-bottom: 20px;
+	min-width: 400px;
+}
+
+#schedule-time-form .form-field {
+	display: inline-block;
+	vertical-align: bottom;
+	margin-right: 5px;
+}
+
+#schedule-time-form .form-field select.time {
+	width: 100px;
+}
+
+.fancybox-inner {
+	overflow-x: hidden !important;
+}
+
+.wruw-manager-holder .schedule-holder .data-title {
+	width: 10%;
+}
+
+.wruw-manager-holder .schedule-holder .data-field {
+	width: 78%;
+}
+
+.wruw-manager-holder .orange {
+	background-color: #fae0b8;
+}
+
+.wruw-manager-holder .schedule-holder .ui-widget-content a {
+  	color: #0074a2;
+}
+
+#schedule-pop #error-message {
+	display: block;
+	margin-left: 0;
+	visibility: hidden;
+	color: red;
+}
+
+#schedule-pop #success-message {
+	display: block;
+	margin-left: 0;
+	visibility: hidden;
+	color: green;
+}
+
+.wruw-manager-holder .schedule-list-holder {
+	margin: 20px 0 40px 50px;
+	border-bottom: 1px solid #faaa2e;
+	padding-bottom: 20px;
+}
+
+.wruw-manager-holder .schedule-list-holder .data-title {
+  	margin: 40px 20px 0 0;
+  	max-width: 500px;
+  	min-width: 250px;
+  	width: auto;
+}
+
+.wruw-manager-holder .schedule-list-holder .data-field {
+	width: auto;
+	margin: 40px 0 0 0;
+}
+
+.wruw-manager-holder .schedule-list-holder .schedule-date {
+	margin-top: 10px;
+	display: inline;
+	margin-left: 20px;
+}
+
+.wruw-manager-holder .top-40 {
+	margin-top: 40px;
+}
+
+.delete-message {
+  color: #ff0000;
+  position: absolute;
+  right: 0;
+  top: 80px;
+}
+
+.delete-message a{
+	color: #ff0000;
+}
+
+.wruw-manager-holder .small {
+	font-size: 12px;
+}
+
+.wruw-manager-holder .wruw-pagination {
+	width: 100%;
+	text-align: center;
+	margin: 40px 0;
+}
+
+.wruw-manager-holder .wruw-pagination .displaying-num {
+	margin-right: 20px;
+}
+
+.wruw-manager-holder .playlist-title {
+	display: inline-block;
+}
+
+.wruw-manager-holder .playlist-key {
+	display: inline-block;
+	float: right;
+}
+
+.wruw-manager-holder .playlist-key.no-inline {
+	display: block;
+	float: none;
+	text-align: right;
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+.wruw-manager-holder .playlist-key .green {
+	color: green;
+}
+
+.wruw-manager-holder .playlist-key .red {
+	color: red;
+}
+
+.wruw-manager-holder .ac_loading, #edit-song-holder .ac_loading {
+	background: white url('indicator.gif') right center no-repeat !important;
+}
+
+#requests-holder {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 98;
+	background-color: #faaa2e;
+	color: #FFF !important;
+	display: none;
+	padding: 10px;
+	border: 1px #FFF solid;
+	width: 25%;
+	min-width: 250px;
+	margin-bottom: 20px;
+	min-height: 50px;
+	box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.75);
+}
+
+#requests-holder p {
+	font-size: 16px;
+}
+
+#requests-holder .close-button {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	color: #FFF;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+#edit-song-holder {
+	position: fixed;
+	top: 25%;
+    left: 50%;
+    margin-left:-25%;
+	z-index: 99;
+	background-color: #faaa2e;
+	color: #FFF !important;
+	display: block;
+	padding: 20px 10px;
+	border: 1px #FFF solid;
+	width: 50%;
+	min-width: 250px;
+	margin-bottom: 20px;
+	min-height: 50px;
+	box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.75);
+}
+
+#edit-song-holder .close-button {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	color: #FFF;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+
+@media screen and (max-width:1400px) {
+	.wruw-manager-holder .data-field {
+		width: 70%;
+	}
+}
+
+@media screen and (max-width:800px) {
+	
+	.wruw-manager-holder {
+		margin-top: 20px;
+		width: 90%;
+	}
+
+	.wruw-manager-holder #requests-holder {
+		display: none !important;
+	}
+
+	.wruw-manager-holder .data-field {
+		width: 65%;
+	}
+
+}
+
+@media screen and (max-width:650px) {
+	.wruw-manager-holder .data-field, .wruw-manager-holder .data-title {
+		width: 95%;
+		float: none;
+		display: block;
+	}
+}
